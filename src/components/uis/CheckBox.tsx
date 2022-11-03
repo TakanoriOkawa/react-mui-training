@@ -13,6 +13,8 @@ const CheckBox = () => {
       <input {...register("name" , {required: true})} type="text" placeholder="名前を入力してください。"/>
       { errors.name && <span>名前を入力してください。</span> }
       <input type="submit" />
+
+      <input type="checkbox" {...register("")} id="" />
     </form>
     </>
   )
