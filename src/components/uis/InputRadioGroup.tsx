@@ -1,1 +1,9 @@
-import Raido from "@mui/material"
+import React from 'react'
+
+const InputRadioGroup = () => {
+  return (
+    <div>InputRadioGroup</div>
+  )
+}
+
+export default InputRadioGroup
